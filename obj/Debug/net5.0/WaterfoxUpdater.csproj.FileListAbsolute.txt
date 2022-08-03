@@ -1,0 +1,16 @@
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.csprojAssemblyReference.cache
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.AssemblyInfoInputs.cache
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.AssemblyInfo.cs
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.csproj.CoreCompileInputs.cache
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater.deps.json
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater.runtimeconfig.json
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater.runtimeconfig.dev.json
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater.dll
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/ref/WaterfoxUpdater.dll
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/bin/Debug/net5.0/WaterfoxUpdater.pdb
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.dll
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/ref/WaterfoxUpdater.dll
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.pdb
+/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/Debug/net5.0/WaterfoxUpdater.genruntimeconfig.cache
