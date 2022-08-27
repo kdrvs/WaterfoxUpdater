@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pSCbjI2knRTIO7gZcWoLe1zMMROtUv64QTi42o12KMX3SgY0Gjg5d8P1cUXZli0jgraxz1ZsGTHvCJvGi0F/tA==",
+  "dgSpecHash": "XXa5QO0RnOjGYP8Vby1AzM7ohoiV+DIsAcN22PVSLmPI+1jWmP/c77IudT5KXJvGhFonIUFZa75c55AW4XDp/Q==",
   "success": true,
-  "projectFilePath": "/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/WaterfoxUpdater.csproj",
+  "projectFilePath": "/home/kaidarov/Документы/dev/Net/WaterfoxUpdater/WaterfoxUpdater.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,12 +7,13 @@ namespace WaterfoxUpdater
 {
     class Program
     {
-        static string appData = (Environment.GetFolderPath(System.Environment.SpecialFolder.CommonApplicationData)).ToString() + "/WaterfoxUpdate/";
+        static string appData = (Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData)).ToString() + "/WaterfoxUpdate/";
         static string fileName = "waterfox.tar.bz2";
         static string opt = (Environment.GetFolderPath(System.Environment.SpecialFolder.System)).ToString() + "/opt/";
         
         static async Task Main(string[] args)
         {
+            Console.WriteLine(opt);
             await update();
             clearAppData();
             

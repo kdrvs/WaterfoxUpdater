@@ -2,7 +2,6 @@ using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.IO;
-using System.IO.Compression;
 using System.Diagnostics;
 
 namespace WaterfoxUpdater
@@ -27,8 +26,8 @@ namespace WaterfoxUpdater
             {
                 using(Process process = new Process())
                 {
-                    process.StartInfo.FileName = "tar";
-                    process.StartInfo.Arguments = $"-xf {appData}{zipName} -C {target}";
+                    process.StartInfo.FileName = "sudo";
+                    process.StartInfo.Arguments = $"tar -xf {appData}{zipName} -C {target}";
                     process.StartInfo.CreateNoWindow = true;
                     process.StartInfo.RedirectStandardOutput = true;
                     process.Start();

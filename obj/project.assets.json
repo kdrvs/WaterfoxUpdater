@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/WaterfoxUpdater.csproj",
+      "projectUniqueName": "/home/kaidarov/Документы/dev/Net/WaterfoxUpdater/WaterfoxUpdater.csproj",
       "projectName": "WaterfoxUpdater",
-      "projectPath": "/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/WaterfoxUpdater.csproj",
+      "projectPath": "/home/kaidarov/Документы/dev/Net/WaterfoxUpdater/WaterfoxUpdater.csproj",
       "packagesPath": "/home/kaidarov/.nuget/packages/",
-      "outputPath": "/home/kaidarov/Документы/dev/Dotnet/WaterfoxUpdater/obj/",
+      "outputPath": "/home/kaidarov/Документы/dev/Net/WaterfoxUpdater/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kaidarov/.nuget/NuGet/NuGet.Config"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
