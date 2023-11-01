@@ -21,9 +21,7 @@ namespace WaterfoxUpdater
 
         static async Task update()
         {
-
-            var httpClient = new WaterfoxHttpClient();
-            var url = await httpClient.getUrl();
+            var url  = @"https://cdn1.waterfox.net/waterfox/releases/latest/linux";
 
             if(url != "")
             {
