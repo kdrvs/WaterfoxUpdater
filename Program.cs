@@ -13,44 +13,57 @@ namespace WaterfoxUpdater
         
         static async Task Main(string[] args)
         {
-            Console.WriteLine(opt);
-            await update();
+            Console.WriteLine("Programs folder: " + opt);
+            if(await update())
+            {
+                Console.WriteLine("Successfully Updated!");
+            }
+            else 
+            {
+                Console.WriteLine("Update fail");
+            }
             clearAppData();
-            
+             
         }
 
-        static async Task update()
+        static async Task<bool> update()
         {
+            var status = false;
             var url  = @"https://cdn1.waterfox.net/waterfox/releases/latest/linux";
 
-            if(url != "")
+            var downloader = new HttpDownloader(url, appData, fileName);
+            try
             {
-                var downloader = new HttpDownloader(url, appData, fileName);
                 if(await downloader.Download())
                 {
                     var unzip = new Unzip(appData, opt, fileName);
                     if(unzip.decompresse())
                     {
-                        Console.WriteLine("Waterfox updated");
-                        return;
+                        status = true;
                     }
                 }
-            
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
 
-            Console.WriteLine("Update Fail");         
+            return status;       
         
         }
 
         static void clearAppData()
         {
-            try
+            if (Directory.Exists(appData))
             {
-                Directory.Delete(appData, true);
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
+                try
+                {
+                    Directory.Delete(appData, true);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
             
         }
